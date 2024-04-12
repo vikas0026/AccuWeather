@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform : scale(0.97);
+}
+body{
+    background: #222;
+   text-align: center;
+}
+h1,h2,p{
+    color: #ebfffc;
+    font-size: larger;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,rgb(12, 250, 143) , rgb(22, 19, 88));
+    color:fff;
+    margin: 50px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    max-height: 800px;
+
+   
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color : #555
+;
+padding: 10px 25px;
+     height: 60px;
+     border-radius: 30px;
+     flex: 1;
+     margin-right: 16px;
+     font-size: 18px;  
+     box-shadow: 5PX 5PX 10PX #555;   
+}
+
+.weather img{
+    width: 150px;
+    height: 150px;
+}
+.search button {
+   width: 60px;
+   height: 60px;
+   border-radius: 30px;
+   box-shadow: 5PX 5PX 10PX #555;  
+}
+button img{
+    height: 40px;
+    width: 40px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.humidity,.wind{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-top: 10px;
+    font-size:  24px;
+    color: #ebfffc;
+    display: none;
+}
+@media screen and (max-width: 600px) and (min-width: 350px){
+    .card{
+        width: 100%;
+        max-width: 470px;
+        background: linear-gradient(135deg,rgb(12, 250, 143) , rgb(22, 19, 88));
+        color:fff;
+        margin: 50px auto 0;
+        border-radius: 20px;
+        padding: 40px 35px;
+        text-align: center;
+        max-height: 800px;
+}
+.heading{
+    font-size: 20px;
+    text-align: center;
+    margin: 0%;
+    height: 20px;
+    
+   }
+   .heading img{
+      display: none;
+   }
+}
+.heading{
+ font-size: 50px;
+ text-align: center;
+ margin: 0%;
+ height: 60px;
+}
+.heading img{
+    height: 100px;
+    width: 100px;
+}
